@@ -1,41 +1,90 @@
 body {
-
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/interlaced.png");
+    line-height: 150%;
 }
 
-#header {
-
+h1, h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-#name {
-
-}
-
-#navBar {
-
-}
-
-.navLink {
-
-}
-
-.main {
-
+h1 {
+    font-size: 32px;
 }
 
 h2 {
-    
+    font-size: 28px;
+    color: #4aaaa5; 
+}
+
+.header, .main, .mainContent {
+    background-color: #ffffff;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    margin: 50px 0 30px 0;
+    padding: auto;
+    border-color: #cccccc;
+}
+
+.name, .navBar {
+  
+}
+
+.name, .button {
+    background-color: #4aaaa5;
+}
+
+.name {
+    color: white;
+    text-align: center;
+    width: max-content;
+    padding: 13px;
+    float: left;
+}
+
+.navBar {
+    float: right;
+    padding-top: 15px;
+}
+
+.navLink {
+    color: #777777;
+    text-decoration: none;
+}
+
+.main, .headerContent {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.main {
+    clear: both;
+    overflow: auto;
+    border-color: #dddddd;
+    padding: 20px 0 0 20px;
+    margin-bottom: 100px;
 }
 
 .mainContent {
-
+    overflow: auto;
+    padding: 10px 0;
 }
 
 #mainImage {
-
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
 }
 
 .text {
-
+    width: 740px;
+    margin: 0;
+    padding: 0;
 }
 
 .info {
@@ -67,5 +116,11 @@ h4 {
 }
 
 footer {
-
+    clear: both;
+    overflow: auto;
+    text-align: center;
+    background-color: #666666;
+    border-top: #4aaaa5 solid 10px;
+    width: 100%;
+    height: 50px;
 }
