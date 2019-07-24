@@ -34,12 +34,12 @@ h2 {
   
 }
 
-.name, .button {
+.name, #submit {
+    color: white;
     background-color: #4aaaa5;
 }
 
 .name {
-    color: white;
     text-align: center;
     width: max-content;
     padding: 13px;
@@ -59,6 +59,10 @@ h2 {
 .main, .headerContent {
     margin: 0 auto;
     width: 960px;
+}
+
+hr {
+    margin-right: 10px;
 }
 
 .main {
@@ -99,6 +103,19 @@ h4 {
 
 }
 
+input {
+    width: 920px;
+    padding-right: 10px;
+}
+
+input[type=text], input[type=email] {
+    padding: 10px;
+}
+
+input[type=submit] {
+    width: max-content;
+}
+
 #contactName{
     
 }
@@ -111,8 +128,13 @@ h4 {
     
 }
 
-#submit {
+.messageBox {
+    height: 200px;
+}
 
+#submit {
+    padding: 5px 10px;
+    margin-top: 10px;
 }
 
 footer {
